@@ -29,7 +29,7 @@ meteor-platform@1.2.1
 minifiers@1.1.3
 minimongo@1.0.6
 mobile-status-bar@1.0.2
-mongo@1.0.11-cordova41
+mongo@1.0.11
 observe-sequence@1.0.4
 ordered-dict@1.0.2
 random@1.0.2
@@ -46,5 +46,5 @@ tracker@1.0.4
 ui@1.0.5
 underscore@1.0.2
 url@1.0.3
-webapp@1.1.6-cordova41
+webapp@1.1.5
 webapp-hashing@1.0.2
