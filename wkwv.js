@@ -14,6 +14,16 @@ if (Meteor.isClient) {
       Session.set("counter", Session.get("counter") + 1);
     }
   });
+
+  // scroll test by viljamis https://gist.github.com/viljamis/c91f3c2b04331247d953
+  window.addEventListener("scroll", function (e) {
+      var $el = document.querySelector(".scroller");
+      var $doc = document.documentElement;
+      var $body = document.body;
+      var top = ($doc && $doc.scrollTop  || $body && $body.scrollTop  || 0);
+
+      $el.innerHTML = "We're at " + top + "px";
+  }, false);
 }
 
 if (Meteor.isServer) {
